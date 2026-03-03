@@ -1,0 +1,48 @@
+name: Deploy Resume to GitHub Pages
+
+on:
+  push:
+    branches: ["main"] # 每當您推送到 main 分支時觸發
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, intl
+
+      - name: Install Dependencies
+        run: composer install --no-progress --no-interaction --prefer-dist
+
+      - name: Export Resume
+        run: |
+          mkdir -p storage/framework/views
+          php application resume:export
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # 將根目錄上傳（包含剛產出的 index.html）
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
