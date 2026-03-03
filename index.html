@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ettt1224 | 2025 雙欄儀表板履歷</title>
+    <title>曾伊廷</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -33,15 +33,15 @@
             <!-- 姓名與標題 -->
             <header class="flex-none">
                 <h1 class="text-5xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-2">
-                    ettt1224
+                    曾伊廷
                 </h1>
                 <p class="text-lg text-slate-400 font-medium uppercase tracking-[0.2em]">PHP &amp; Laravel 後端開發者</p>
             </header>
 
             <!-- 關於我 -->
             <section class="flex-none glass p-8 rounded-[2rem] relative overflow-hidden">
-                <div class="absolute top-4 right-4 text-blue-500/10 text-4xl">👤</div>
-                <h2 class="text-[30px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">關於我 / About Me</h2>
+                <div class="absolute top-4 right-4 text-blue-500/10 text-4xl"></div>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">關於我</h2>
                 <p class="text-xl font-light leading-relaxed text-slate-200">
                     熱衷於 Web 開發與 PHP 相關技術的學習者，目前專注於 Laravel 框架的實作，並持續在 GitHub 上透過專案累積開發實戰經驗。喜歡探索新技術並將其應用於解決實際問題。
                 </p>
@@ -49,7 +49,7 @@
 
             <!-- 技術棧 (由上至下排序) -->
             <section class="flex-1 glass p-8 rounded-[2rem] flex flex-col justify-between overflow-hidden">
-                <h2 class="text-[30px] font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 inline-block">掌握技術 / Tech Stack</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-green-500 mb-4 border-b border-green-500/20 pb-2 inline-block">掌握技術</h2>
                 <div class="flex-1 flex flex-col justify-around gap-2">
                                         <div class="flex items-center gap-6 group">
                         <div class="w-1.5 h-1.5 rounded-full bg-blue-500 group-hover:scale-150 transition"></div>
@@ -88,7 +88,7 @@
             <!-- 聯絡方式 -->
             <section class="flex-none glass p-8 rounded-[2rem] bg-gradient-to-br from-purple-500/5 to-transparent relative overflow-hidden">
                 <div class="absolute top-4 right-4 text-purple-500/10 text-4xl"></div>
-                <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500 mb-6 border-b border-purple-500/20 pb-2 inline-block">聯絡方式 / Contact</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500 mb-6 border-b border-purple-500/20 pb-2 inline-block">聯絡方式</h2>
                 
                 <div class="grid grid-cols-1 gap-4">
                     <div class="flex items-center gap-4">
@@ -109,7 +109,7 @@
             <!-- 精選專案 (垂直排列) -->
             <section class="flex-1 glass p-8 rounded-[2rem] flex flex-col overflow-hidden">
                 <div class="flex justify-between items-center mb-6 border-b border-purple-500/20 pb-2">
-                    <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500">精選專案 / Projects</h2>
+                    <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500">精選專案</h2>
                     <a href="https://github.com/ettt1224" class="text-[10px] font-bold text-blue-400 hover:text-white transition uppercase">View All ↗</a>
                 </div>
                 
@@ -135,11 +135,6 @@
 
     </div>
 
-    <!-- Footer -->
-    <footer class="flex-none flex justify-between items-center text-slate-600 text-[9px] uppercase tracking-[0.3em] pt-6">
-        <p>© 2025 ettt1224 | 版權所有</p>
-        <p>Built with Laravel Zero & Tailwind CSS</p>
-    </footer>
 
 </body>
 </html>

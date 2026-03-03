@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'ettt1224',
+    'name' => '曾伊廷',
     'title' => 'PHP & Laravel 後端開發者',
     'bio' => '熱衷於 Web 開發與 PHP 相關技術的學習者，目前專注於 Laravel 框架的實作，並持續在 GitHub 上透過專案累積開發實戰經驗。喜歡探索新技術並將其應用於解決實際問題。',
     'skills_groups' => [
@@ -29,6 +29,6 @@ return [
     ],
     'contact' => [
         'github' => 'https://github.com/ettt1224',
-        'email' => 'ettt1224@example.com',
+        'email' => 'howie88128@gmail.com',
     ],
 ];
