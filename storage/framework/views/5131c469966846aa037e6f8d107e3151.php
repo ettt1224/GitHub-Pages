@@ -61,7 +61,7 @@
 
             <!-- 關於我 -->
             <section class="flex-none glass p-6 md:p-8 rounded-[2rem] relative overflow-hidden">
-                <h2 class="text-[30px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">關於我 / About Me</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">關於我</h2>
                 <p class="text-lg md:text-xl font-light leading-relaxed text-slate-200">
                     熱衷於 Web 開發與 PHP 相關技術的學習者，目前專注於 Laravel 框架的實作，並持續在 GitHub 上透過專案累積開發實戰經驗。喜歡探索新技術並將其應用於解決實際問題。
                 </p>
@@ -69,7 +69,7 @@
 
             <!-- 技術棧 (由上至下排序) -->
             <section class="flex-1 glass p-6 md:p-8 rounded-[2rem] flex flex-col gap-4">
-                <h2 class="text-[30px] font-black uppercase tracking-widest text-green-500 mb-2 border-b border-green-500/20 pb-2 inline-block">掌握技術 / Tech Stack</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-green-500 mb-2 border-b border-green-500/20 pb-2 inline-block">掌握技術</h2>
                 <div class="grid grid-cols-1 gap-4 md:flex-1 md:flex md:flex-col md:justify-around">
                                         <div class="flex items-center gap-4 group">
                         <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
@@ -107,7 +107,7 @@
         <div class="w-full md:w-1/2 flex flex-col gap-6">
             <!-- 聯絡方式 -->
             <section class="flex-none glass p-6 md:p-8 rounded-[2rem] bg-gradient-to-br from-purple-500/5 to-transparent relative overflow-hidden">
-                <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500 mb-4 border-b border-purple-500/20 pb-2 inline-block">聯絡方式 / Contact</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500 mb-4 border-b border-purple-500/20 pb-2 inline-block">聯絡方式</h2>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
                     <div class="flex items-center gap-3">
@@ -124,7 +124,7 @@
             <!-- 精選專案 (垂直排列) -->
             <section class="flex-1 glass p-6 md:p-8 rounded-[2rem] flex flex-col min-h-[300px] md:min-h-0">
                 <div class="flex justify-between items-center mb-4 border-b border-purple-500/20 pb-2">
-                    <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500">精選專案 / Projects</h2>
+                    <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500">精選專案</h2>
                     <a href="https://github.com/ettt1224" class="text-[9px] font-bold text-blue-400 hover:text-white transition uppercase">View All ↗</a>
                 </div>
                 
