@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo e($name); ?> | 2025 響應式儀表板履歷</title>
+    <title>曾伊廷</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script>
@@ -54,34 +54,52 @@
             <!-- 姓名與標題 -->
             <header class="flex-none text-center md:text-left">
                 <h1 class="text-4xl md:text-5xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-2">
-                    <?php echo e($name); ?>
-
+                    曾伊廷
                 </h1>
-                <p class="text-base md:text-lg text-slate-400 font-medium uppercase tracking-[0.2em]"><?php echo e($title); ?></p>
+                <p class="text-base md:text-lg text-slate-400 font-medium uppercase tracking-[0.2em]">PHP &amp; Laravel 後端開發者</p>
             </header>
 
             <!-- 關於我 -->
             <section class="flex-none glass p-6 md:p-8 rounded-[2rem] relative overflow-hidden">
-                <h2 class="text-[10px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">關於我 / About Me</h2>
-                <p class="text-lg md:text-xl font-light leading-relaxed text-slate-200 italic">
-                    "<?php echo e($bio); ?>"
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">關於我 / About Me</h2>
+                <p class="text-lg md:text-xl font-light leading-relaxed text-slate-200">
+                    熱衷於 Web 開發與 PHP 相關技術的學習者，目前專注於 Laravel 框架的實作，並持續在 GitHub 上透過專案累積開發實戰經驗。喜歡探索新技術並將其應用於解決實際問題。
                 </p>
             </section>
 
             <!-- 技術棧 (由上至下排序) -->
             <section class="flex-1 glass p-6 md:p-8 rounded-[2rem] flex flex-col gap-4">
-                <h2 class="text-[10px] font-black uppercase tracking-widest text-green-500 mb-2 border-b border-green-500/20 pb-2 inline-block">掌握技術 / Tech Stack</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-green-500 mb-2 border-b border-green-500/20 pb-2 inline-block">掌握技術 / Tech Stack</h2>
                 <div class="grid grid-cols-1 gap-4 md:flex-1 md:flex md:flex-col md:justify-around">
-                    <?php $__currentLoopData = $skills_groups; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $group): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <div class="flex items-center gap-4 group">
+                                        <div class="flex items-center gap-4 group">
                         <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
                         <div class="flex-1">
-                            <p class="text-[9px] font-bold text-slate-500 uppercase tracking-widest"><?php echo e($group['category']); ?></p>
-                            <p class="text-lg font-black text-white group-hover:text-blue-400 transition"><?php echo e($group['items']); ?></p>
+                            <p class="text-[20px] font-bold text-slate-500 uppercase tracking-widest">前端開發</p>
+                            <p class="text-lg font-black text-white group-hover:text-blue-400 transition">HTML, CSS</p>
                         </div>
                     </div>
-                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                </div>
+                                        <div class="flex items-center gap-4 group">
+                        <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
+                        <div class="flex-1">
+                            <p class="text-[20px] font-bold text-slate-500 uppercase tracking-widest">後端開發</p>
+                            <p class="text-lg font-black text-white group-hover:text-blue-400 transition">PHP, Laravel</p>
+                        </div>
+                    </div>
+                                        <div class="flex items-center gap-4 group">
+                        <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
+                        <div class="flex-1">
+                            <p class="text-[20px] font-bold text-slate-500 uppercase tracking-widest">資料庫管理</p>
+                            <p class="text-lg font-black text-white group-hover:text-blue-400 transition">MySQL</p>
+                        </div>
+                    </div>
+                                        <div class="flex items-center gap-4 group">
+                        <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
+                        <div class="flex-1">
+                            <p class="text-[20px] font-bold text-slate-500 uppercase tracking-widest">版本控制</p>
+                            <p class="text-lg font-black text-white group-hover:text-blue-400 transition">Git</p>
+                        </div>
+                    </div>
+                                    </div>
             </section>
         </div>
 
@@ -89,49 +107,48 @@
         <div class="w-full md:w-1/2 flex flex-col gap-6">
             <!-- 聯絡方式 -->
             <section class="flex-none glass p-6 md:p-8 rounded-[2rem] bg-gradient-to-br from-purple-500/5 to-transparent relative overflow-hidden">
-                <h2 class="text-[10px] font-black uppercase tracking-widest text-purple-500 mb-4 border-b border-purple-500/20 pb-2 inline-block">聯絡方式 / Contact</h2>
+                <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500 mb-4 border-b border-purple-500/20 pb-2 inline-block">聯絡方式 / Contact</h2>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
                     <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-xl glass flex items-center justify-center text-lg">✉️</div>
-                        <p class="text-sm font-bold truncate"><?php echo e($contact['email']); ?></p>
+                        
+                        <p class="text-[18px] font-bold truncate">電子信箱：howie88128@gmail.com</p>
                     </div>
                     <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-xl glass flex items-center justify-center text-lg">🐙</div>
-                        <p class="text-sm font-bold truncate">github.com/ettt1224</p>
+                        
+                        <p class="text-[18px] font-bold truncate">Github：github.com/ettt1224</p>
                     </div>
                 </div>
-                <a href="mailto:<?php echo e($contact['email']); ?>" class="mt-4 block w-full py-3 bg-white text-dark text-center font-black rounded-xl hover:bg-blue-400 transition text-sm">
-                    立即與我聯繫
-                </a>
             </section>
 
             <!-- 精選專案 (垂直排列) -->
             <section class="flex-1 glass p-6 md:p-8 rounded-[2rem] flex flex-col min-h-[300px] md:min-h-0">
                 <div class="flex justify-between items-center mb-4 border-b border-purple-500/20 pb-2">
-                    <h2 class="text-[10px] font-black uppercase tracking-widest text-purple-500">精選專案 / Projects</h2>
-                    <a href="<?php echo e($contact['github']); ?>" class="text-[9px] font-bold text-blue-400 hover:text-white transition uppercase">View All ↗</a>
+                    <h2 class="text-[30px] font-black uppercase tracking-widest text-purple-500">精選專案 / Projects</h2>
+                    <a href="https://github.com/ettt1224" class="text-[9px] font-bold text-blue-400 hover:text-white transition uppercase">View All ↗</a>
                 </div>
                 
                 <div class="flex-1 flex flex-col gap-3 overflow-y-auto md:overflow-hidden">
-                    <?php $__currentLoopData = $projects; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $project): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <div class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
-                        <h3 class="text-base font-bold group-hover:text-blue-400 transition mb-1"><?php echo e($project['name']); ?></h3>
-                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug"><?php echo e($project['desc']); ?></p>
+                                        <div class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
+                        <h3 class="text-base font-bold group-hover:text-blue-400 transition mb-1">Laravel 實戰練習 (0114)</h3>
+                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">深入學習 Laravel 框架核心，包含 Blade 模板引擎運用、路由設計以及基礎控制器實作。</p>
                     </div>
-                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                </div>
+                                        <div class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
+                        <h3 class="text-base font-bold group-hover:text-blue-400 transition mb-1">Web 技術探索 (web01)</h3>
+                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">使用 Hack 與相關 Web 技術進行的專案研究，探索不同語言環境下的開發模式。</p>
+                    </div>
+                                        <div class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
+                        <h3 class="text-base font-bold group-hover:text-blue-400 transition mb-1">個人作品集 (Portfolio)</h3>
+                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">匯集過往所有 Web 學習成果與練習作品，展示完整的開發歷程與技術成長。</p>
+                    </div>
+                                    </div>
             </section>
         </div>
 
     </div>
 
     <!-- Footer -->
-    <footer class="flex-none flex flex-col md:flex-row justify-between items-center text-slate-600 text-[9px] uppercase tracking-[0.3em] pt-6 gap-2">
-        <p>© 2025 <?php echo e($name); ?></p>
-        <p class="hidden md:block">Built with Laravel Zero & Tailwind CSS</p>
-    </footer>
+
 
 </body>
 </html>
-<?php /**PATH F:\777\ettt-resume\resources\views/resume-web.blade.php ENDPATH**/ ?>
