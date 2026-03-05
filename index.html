@@ -146,8 +146,8 @@
                         <p class="text-[18px] font-bold truncate">電子信箱：howie88128@gmail.com</p>
                     </div>
                     <div class="flex items-center gap-3">
-
-                        <p class="text-[18px] font-bold truncate">Github：github.com/ettt1224</p>
+                        <a href="https://ettt1224.github.io/GitHub-Pages/"
+                            class="text-[18px] font-bold truncate">Github：ettt1224</a>
                     </div>
                 </div>
             </section>
@@ -170,7 +170,7 @@
                     </div>
                     <div
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
-                        <a href="https://github.com/ettt1224/morning752"
+                        <a href="https://github.com/ettt1224/user"
                             class="text-base font-bold group-hover:text-blue-400 transition mb-1">點餐系統</a>
                         <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">前後端分離使用vue.3以及laravel12分別架構。</p>
                     </div>
