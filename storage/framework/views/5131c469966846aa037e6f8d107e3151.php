@@ -170,7 +170,7 @@
                     </div>
                     <div
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
-                        <a href="https://github.com/ettt1224/user"
+                        <a href="https://github.com/ettt1224/morning752"
                             class="text-base font-bold group-hover:text-blue-400 transition mb-1">點餐系統</a>
                         <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">前後端分離使用vue.3以及laravel12分別架構。</p>
                     </div>
@@ -189,5 +189,4 @@
 
 
 </body>
-
 </html>
