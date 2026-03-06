@@ -87,8 +87,10 @@
                 <h2
                     class="text-[30px] font-black uppercase tracking-widest text-blue-500 mb-4 border-b border-blue-500/20 pb-2 inline-block">
                     關於我</h2>
-                <p class="text-lg md:text-xl font-light leading-relaxed text-slate-200">
-                    熱衷於 Web 開發與 PHP 相關技術的學習者，目前專注於 Laravel 框架的實作，並持續在 GitHub 上透過專案累積開發實戰經驗。喜歡探索新技術並將其應用於解決實際問題。
+                <p class="text-[16px]">
+                    我是一位兼具設計美學的細膩與邏輯思維的開發者，且具備 3 年職場溝通經驗。
+                    大學期間我已建立程式邏輯基礎，但過往的就職經歷讓我更加劇對專業技能的渴求，為追求更深層的技術掌握，我投身PHP後端專業培訓，並在課程以外的時間結合 AI 工具加速自學 Vue、GCP 部署等相關技術。
+                    我深知後端工程師的核心競爭力在於自學與邏輯，我熱衷於追求從 0 到 1 的具現化成就感，打造兼具嚴謹邏輯與流暢體驗的數位產品。
                 </p>
             </section>
 
@@ -164,21 +166,17 @@
                     <div
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
                         <a href="https://github.com/ettt1224/user"
-                            class="text-base font-bold group-hover:text-blue-400 transition mb-1">登入系統</a>
-                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">
+                            class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">登入系統</a>
+                        <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">
                             laravel12自帶的內建blade建立登入系統，API串聯使用者資料以及fromRequest做驗證也有用Role權限管理包含軟刪除及servcielayer抽離商業邏輯</p>
                     </div>
                     <div
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
                         <a href="https://github.com/ettt1224/morning752"
-                            class="text-base font-bold group-hover:text-blue-400 transition mb-1">點餐系統</a>
-                            <a href="http://34.80.44.220/">這是網址</a>
-                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">前後端分離使用vue.3以及laravel12分別架構。 此專案我也使用GCP部屬到雲端上了</p>
-                    </div>
-                    <div
-                        class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
-                        <h3 class="text-base font-bold group-hover:text-blue-400 transition mb-1">網頁乙級題組一</h3>
-                        <p class="text-slate-400 text-[11px] line-clamp-2 leading-snug">laravel12把乙級原生的題目移植過來</p>
+                            class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">點餐系統</a>
+                        <a href="http://34.80.44.220/" class="text-[25px]">這是網址</a>
+                        <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">前後端分離使用vue.3以及laravel12分別架構。
+                            此專案我也使用GCP部屬到雲端上了</p>
                     </div>
                 </div>
             </section>
@@ -190,4 +188,5 @@
 
 
 </body>
+
 </html>
