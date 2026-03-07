@@ -173,7 +173,7 @@
                     <div
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
                         <a href="https://github.com/ettt1224/morning752"
-                            class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">點餐系統</a>
+                            class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1" >點餐系統</a>
                         <a href="http://34.80.44.220/" class="text-[25px]">這是網址</a>
                         <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">前後端分離使用vue.3以及laravel12分別架構。
                             此專案我也使用GCP部屬到雲端上了</p>
@@ -182,8 +182,7 @@
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
                         <a href="https://github.com/ettt1224/GOGO"
                             class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">購物網站</a>
-                        <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">致力於探索 AI 驅動開發，能熟練運用 Gemini CLI
-                            等智慧化代理工具進行快速原型製作的環境下進行架構重構、自動化測試與大規模重構的能力，將開發效能提升至 2 倍以上 。
+                        <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">練習使用Gemini CLI進行快速原型製作的環境下，開發出一個網站讓我快速了解程式如何運行構寫。
                         </p>
                     </div>
                 </div>
