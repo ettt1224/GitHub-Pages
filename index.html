@@ -183,7 +183,7 @@
                         <a href="https://github.com/ettt1224/GOGO"
                             class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">購物網站</a>
                         <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">致力於探索 AI 驅動開發，能熟練運用 Gemini CLI
-                            等智慧化代理工具進行快速原型製作的環境下進行架構重構、自動化測試與大規模重構的能力，將開發效能提升至 2 倍以上。
+                            等智慧化代理工具進行快速原型製作的環境下進行架構重構、自動化測試與大規模重構的能力，將開發效能提升至 2 倍以上 。
                         </p>
                     </div>
                 </div>
