@@ -173,10 +173,22 @@
                     <div
                         class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
                         <a href="https://github.com/ettt1224/morning752"
+<<<<<<< HEAD
                             class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">點餐系統</a>
                         <a href="http://34.80.44.220/admin" class="text-[25px]">這是網址</a>
+=======
+                            class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1" >點餐系統</a>
+                        <a href="http://34.80.44.220/" class="text-[25px]">這是網址</a>
+>>>>>>> 26ed5b82e910371b67e4a7bb6a9de96388906a24
                         <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">前後端分離使用vue.3以及laravel12分別架構。
                             此專案我也使用GCP部屬到雲端上了</p>
+                    </div>
+                    <div
+                        class="flex-none md:flex-1 glass p-4 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-center group relative overflow-hidden project-item">
+                        <a href="https://github.com/ettt1224/GOGO"
+                            class="text-[30px] font-bold group-hover:text-blue-400 transition mb-1">購物網站</a>
+                        <p class="text-slate-400 text-[13px] line-clamp-2 leading-snug">練習使用Gemini CLI進行快速原型製作的環境下，開發出一個網站讓我快速了解程式如何運行構寫。
+                        </p>
                     </div>
                 </div>
             </section>
